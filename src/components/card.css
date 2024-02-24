@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.image {
+  width: 50%;
+}
+.image img {
+  width: 24rem;
+  height: 100%;
+}
+.code {
+  color: aqua;
+}
+.title {
+  margin-top: -0.5rem;
+
+  font-weight: 500;
+  font-size: 3rem;
+}
+.moreDesc {
+  width: 23.51rem;
+  margin-top: -1rem;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
